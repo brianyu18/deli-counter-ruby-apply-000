@@ -1,10 +1,23 @@
+katz_deli=[]
+
 def take_a_number (katz_deli, name)
     katz_deli << name
     message = "Welcome, #{name}. You are number #{katz_deli.length} in line."
     puts message
 end
 
+-------------------
+number = []
+count = 1
 
+def take_a_number (count, number)
+  count << number
+  message = "Welcome. You are number #{number} in line".
+  count += 1
+  puts message
+end
+  
+-------------------
 
 def line (katz_deli)
   if katz_deli.length == 0
